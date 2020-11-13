@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Template_Method
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Player player = new Player(new GamingConsole());
             player.Play();
 
-            player.GamingDevice = new GamingPC();
+            player.GamingDevice = new GamingPc();
             player.Play();
 
             Console.ReadKey();
@@ -54,7 +50,7 @@ namespace Template_Method
             public abstract void Play();
         }
 
-        class GamingPC : Playable
+        class GamingPc : Playable
         {
             public override void Play()
             {
