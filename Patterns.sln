@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent Builder", "Fluent Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{50AA9BA0-E07E-4022-AB6C-5E39D9136239}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{9205D84C-31EE-4F4E-AD23-9A63E5309739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{50AA9BA0-E07E-4022-AB6C-5E39D9136239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50AA9BA0-E07E-4022-AB6C-5E39D9136239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50AA9BA0-E07E-4022-AB6C-5E39D9136239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9205D84C-31EE-4F4E-AD23-9A63E5309739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9205D84C-31EE-4F4E-AD23-9A63E5309739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9205D84C-31EE-4F4E-AD23-9A63E5309739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9205D84C-31EE-4F4E-AD23-9A63E5309739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
