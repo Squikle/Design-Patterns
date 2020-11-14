@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Command
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             SwitchController controller = new SwitchController(new Tv());
             controller.Action(new OnCommand());
