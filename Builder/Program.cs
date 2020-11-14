@@ -6,24 +6,24 @@ namespace Builder
     {
         static void Main()
         {
-            Customer customer = new Customer();
-            var table = customer.OrderTable(new IronTableCarpenter());
+            Carpenter carpenter = new Carpenter();
+            var table = carpenter.CreateTable(new WoodenTableBuilder());
             Console.WriteLine(table.Legs + " " + table.Top);
 
-            table = customer.OrderTable(new WoodenTableCarpenter());
+            table = carpenter.CreateTable(new IronTableBuilder());
             Console.WriteLine(table.Legs + " " + table.Top);
 
             Console.ReadKey();
         }
 
-        class Customer
+        class Carpenter
         {
-            public Table OrderTable(Carpenter carpenter)
+            public Table CreateTable(Builder builder)
             {
-                carpenter.CreateTable();
-                carpenter.CreateLegs();
-                carpenter.CreateTop();
-                return carpenter.Table;
+                builder.CreateTable();
+                builder.CreateLegs();
+                builder.CreateTop();
+                return builder.Table;
             }
         }
 
@@ -33,7 +33,7 @@ namespace Builder
             public string Legs { get; set; }
         }
 
-        abstract class Carpenter
+        abstract class Builder
         {
             public Table Table;
 
@@ -45,7 +45,7 @@ namespace Builder
             public abstract void CreateLegs();
         }
 
-        class WoodenTableCarpenter : Carpenter
+        class WoodenTableBuilder : Builder
         {
             public override void CreateLegs()
             {
@@ -58,7 +58,7 @@ namespace Builder
             }
         }
 
-        class IronTableCarpenter : Carpenter
+        class IronTableBuilder : Builder
         {
             public override void CreateLegs()
             {
