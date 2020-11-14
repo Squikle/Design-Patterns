@@ -34,12 +34,12 @@ namespace Observer
         class ObservableList<T> : IObservable
         {
             private readonly List<T> _list;
-            private List<IObserver> Observers;
+            private readonly List<IObserver> _observers;
 
             public ObservableList()
             {
                 _list = new List<T>();
-                Observers = new List<IObserver>();
+                _observers = new List<IObserver>();
             }
 
             public void Add(T element)
@@ -55,16 +55,16 @@ namespace Observer
 
             public void AddObserver(IObserver observer)
             {
-                Observers.Add(observer);
+                _observers.Add(observer);
             }
             public void RemoveObserver(IObserver observer)
             {
-                Observers.Remove(observer);
+                _observers.Remove(observer);
             }
 
             public void NotifyObservers(string notification)
             {
-                foreach (var observer in Observers)
+                foreach (var observer in _observers)
                 {
                     observer.Update(notification);
                 }
