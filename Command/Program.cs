@@ -6,13 +6,15 @@ namespace Command
     {
         static void Main()
         {
-            SwitchController controller = new SwitchController(new Tv());
-            controller.Action(new OnCommand());
-            controller.Action(new OffCommand());
+            SwitchController controller = new SwitchController(new Tv(), new OnCommand());
+            controller.Action(); 
+            controller.Command = new OffCommand();
+            controller.Action();
 
             controller.Device = new Fan();
-            controller.Action(new OnCommand());
-            controller.Action(new OffCommand());
+            controller.Command = new OnCommand();
+            controller.Action();
+            controller.Undo();
 
             Console.ReadKey();
         }
@@ -20,18 +22,20 @@ namespace Command
         class SwitchController
         {
             public IDevice Device { private get; set; }
+            public ICommand Command { private get; set; }
 
-            public SwitchController(IDevice device)
+            public SwitchController(IDevice device, ICommand command)
             {
                 Device = device;
+                Command = command;
             }
-            public void Action(ICommand command)
+            public void Action()
             {
-                command.Do(Device);
+                Command.Do(Device);
             }
-            public void Undo(ICommand command)
+            public void Undo()
             {
-                command.Undo(Device);
+                Command.Undo(Device);
             }
         }
         interface ICommand
