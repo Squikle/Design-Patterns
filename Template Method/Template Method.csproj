@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementers\GamingConsole.cs" />
+    <Compile Include="Interfaces\IPlayable.cs" />
+    <Compile Include="Abstractions\Playable.cs" />
+    <Compile Include="Implementers\Player.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Implementers\GamingPc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,6 @@
 ﻿using System;
+using Template_Method.Abstractions;
+using Template_Method.Implementers;
 
 namespace Template_Method
 {
@@ -13,56 +15,6 @@ namespace Template_Method
             player.Play();
 
             Console.ReadKey();
-        }
-
-        class Player
-        {
-            public IPlayable GamingDevice { get; set; }
-
-            public Player(IPlayable gamingDevice)
-            {
-                GamingDevice = gamingDevice;
-            }
-
-            public void Play()
-            {
-                GamingDevice.Enable();
-                GamingDevice.Play();
-                GamingDevice.Disable();
-            }
-        }
-        interface IPlayable
-        {
-            void Enable();
-            void Disable();
-            void Play();
-        }
-        abstract class Playable : IPlayable
-        {
-            public void Enable()
-            {
-                Console.WriteLine("Запуск устройства");
-            }
-            public void Disable()
-            {
-                Console.WriteLine("Выключение устройства");
-            }
-            public abstract void Play();
-        }
-
-        class GamingPc : Playable
-        {
-            public override void Play()
-            {
-                Console.WriteLine("Игра на игровом компьютере");
-            }
-        }
-        class GamingConsole : Playable
-        {
-            public override void Play()
-            {
-                Console.WriteLine("Игра на игровой консоли");
-            }
         }
     }
 }
