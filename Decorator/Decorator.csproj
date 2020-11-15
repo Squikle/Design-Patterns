@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\Phone.cs" />
+    <Compile Include="Abstractions\PhoneDecorator.cs" />
+    <Compile Include="Classes\GalaxyS10Phone.cs" />
+    <Compile Include="Classes\Oneplus8Phone.cs" />
+    <Compile Include="Classes\Phone5G.cs" />
+    <Compile Include="Classes\PhoneDualCamera.cs" />
+    <Compile Include="Interfaces\IPhone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

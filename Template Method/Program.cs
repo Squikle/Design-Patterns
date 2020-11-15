@@ -1,6 +1,5 @@
 ﻿using System;
-using Template_Method.Abstractions;
-using Template_Method.Implementers;
+using Template_Method.Classes;
 
 namespace Template_Method
 {

@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\BoxWithToys.cs" />
+    <Compile Include="Classes\ChristmasToy.cs" />
+    <Compile Include="Classes\ChristmasTree.cs" />
+    <Compile Include="Interfaces\IToyEnumerable.cs" />
+    <Compile Include="Interfaces\IToyEnumerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\ToyEnumerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

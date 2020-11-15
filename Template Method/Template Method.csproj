@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementers\GamingConsole.cs" />
+    <Compile Include="Classes\GamingConsole.cs" />
     <Compile Include="Interfaces\IPlayable.cs" />
     <Compile Include="Abstractions\Playable.cs" />
-    <Compile Include="Implementers\Player.cs" />
+    <Compile Include="Classes\Player.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Implementers\GamingPc.cs" />
+    <Compile Include="Classes\GamingPc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

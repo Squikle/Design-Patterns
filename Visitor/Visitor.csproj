@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Implementers\EnglishPrinterVisitor.cs" />
-    <Compile Include="Implementers\RectangularVisitable.cs" />
-    <Compile Include="Implementers\RussianPrinterVisitor.cs" />
-    <Compile Include="Implementers\SquareVisitable.cs" />
+    <Compile Include="Classes\EnglishPrinterVisitor.cs" />
+    <Compile Include="Classes\RectangularVisitable.cs" />
+    <Compile Include="Classes\RussianPrinterVisitor.cs" />
+    <Compile Include="Classes\SquareVisitable.cs" />
     <Compile Include="Interfaces\IVisitable.cs" />
     <Compile Include="Interfaces\IVisitor.cs" />
     <Compile Include="Program.cs" />

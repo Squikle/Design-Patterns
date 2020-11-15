@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\DamageDealer.cs" />
+    <Compile Include="Interfaces\IMediator.cs" />
+    <Compile Include="Interfaces\ITeammate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Support.cs" />
+    <Compile Include="Classes\Tank.cs" />
+    <Compile Include="Abstractions\Teammate.cs" />
+    <Compile Include="Classes\TeamMediator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

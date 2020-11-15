@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\Builder.cs" />
+    <Compile Include="Classes\Carpenter.cs" />
+    <Compile Include="Classes\IronTableBuilder.cs" />
+    <Compile Include="Classes\Table.cs" />
+    <Compile Include="Classes\WoodenTableBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

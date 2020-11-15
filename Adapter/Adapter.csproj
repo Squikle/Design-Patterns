@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Human.cs" />
+    <Compile Include="Classes\Keyboard.cs" />
+    <Compile Include="Classes\Pen.cs" />
+    <Compile Include="Classes\WritingToTypingData.cs" />
+    <Compile Include="Interfaces\ITypingData.cs" />
+    <Compile Include="Interfaces\IWriting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ICpu.cs" />
+    <Compile Include="Interfaces\IMemory.cs" />
+    <Compile Include="Interfaces\IMotherBoard.cs" />
+    <Compile Include="Classes\IntelI5.cs" />
+    <Compile Include="Classes\Memory120Gb.cs" />
+    <Compile Include="Classes\MotherBoardB250M.cs" />
+    <Compile Include="Classes\MyPc.cs" />
+    <Compile Include="Classes\Person.cs" />
+    <Compile Include="Abstractions\PersonalComputer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

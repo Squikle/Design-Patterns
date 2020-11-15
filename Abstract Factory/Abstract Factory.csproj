@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Bow.cs" />
+    <Compile Include="Classes\BowHeroFactory.cs" />
+    <Compile Include="Classes\Hero.cs" />
+    <Compile Include="Classes\IronArmor.cs" />
+    <Compile Include="Classes\PlasticArmor.cs" />
+    <Compile Include="Classes\Sword.cs" />
+    <Compile Include="Classes\SwordHeroFactory.cs" />
+    <Compile Include="Interfaces\IArmor.cs" />
+    <Compile Include="Interfaces\IHeroFactory.cs" />
+    <Compile Include="Classes\MyHeroFactory.cs" />
+    <Compile Include="Interfaces\IWeapon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

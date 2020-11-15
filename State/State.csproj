@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Human.cs" />
+    <Compile Include="Classes\NormalWalkState.cs" />
+    <Compile Include="Classes\SlowWalkState.cs" />
+    <Compile Include="Interfaces\IWalker.cs" />
+    <Compile Include="Interfaces\IWalkState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\RunningWalkState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

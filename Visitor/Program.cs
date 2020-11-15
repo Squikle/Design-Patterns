@@ -1,5 +1,5 @@
 ﻿using System;
-using Visitor.Implementers;
+using Visitor.Classes;
 using Visitor.Interfaces;
 
 namespace Visitor
