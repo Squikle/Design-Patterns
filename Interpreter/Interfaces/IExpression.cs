@@ -1,4 +1,6 @@
-﻿namespace Interpreter
+﻿using Interpreter.Classes;
+
+namespace Interpreter.Interfaces
 {
     interface IExpression
     {

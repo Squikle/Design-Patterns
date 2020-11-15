@@ -1,4 +1,6 @@
-﻿namespace Bridge
+﻿using Bridge.Interfaces;
+
+namespace Bridge.Abstractions
 {
     abstract class Person : IPerson
     {

@@ -1,6 +1,6 @@
 ﻿namespace Builder.Classes
 {
-    class IronTableBuilder : Builder
+    class IronTableBuilder : Abstractions.Builder
     {
         public override void CreateLegs()
         {

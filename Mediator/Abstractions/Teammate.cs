@@ -1,6 +1,7 @@
 ﻿using System;
+using Mediator.Interfaces;
 
-namespace Mediator
+namespace Mediator.Abstractions
 {
     abstract class Teammate : ITeammate
     {

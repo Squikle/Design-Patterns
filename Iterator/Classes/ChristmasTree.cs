@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Iterator.Interfaces;
 
-namespace Iterator
+namespace Iterator.Classes
 {
     class ChristmasTree : IToyEnumerable
     {

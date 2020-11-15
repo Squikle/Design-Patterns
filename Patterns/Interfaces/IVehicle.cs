@@ -1,4 +1,4 @@
-﻿namespace Patterns
+﻿namespace Patterns.Interfaces
 {
     interface IVehicle
     {

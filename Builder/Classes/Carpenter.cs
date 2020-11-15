@@ -2,7 +2,7 @@
 {
     class Carpenter
     {
-        public Table CreateTable(Builder builder)
+        public Table CreateTable(Abstractions.Builder builder)
         {
             builder.CreateTable();
             builder.CreateLegs();

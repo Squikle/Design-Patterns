@@ -1,4 +1,7 @@
-﻿namespace Bridge
+﻿using Bridge.Abstractions;
+using Bridge.Interfaces;
+
+namespace Bridge.Classes
 {
     class Developer : Person
     {

@@ -1,6 +1,7 @@
 ﻿using System;
+using Patterns.Interfaces;
 
-namespace Patterns
+namespace Patterns.Classes
 {
     class Van : IVehicle
     {

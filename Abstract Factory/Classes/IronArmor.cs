@@ -1,4 +1,7 @@
-﻿namespace Abstract_Factory.Classes
+﻿using System;
+using Abstract_Factory.Interfaces;
+
+namespace Abstract_Factory.Classes
 {
     class IronArmor : IArmor
     {

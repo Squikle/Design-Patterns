@@ -1,4 +1,6 @@
-﻿namespace Interpreter
+﻿using Interpreter.Interfaces;
+
+namespace Interpreter.Classes
 {
     class NumberExression : IExpression
     {

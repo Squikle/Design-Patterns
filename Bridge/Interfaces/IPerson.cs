@@ -1,4 +1,4 @@
-﻿namespace Bridge
+﻿namespace Bridge.Interfaces
 {
     interface IPerson
     {

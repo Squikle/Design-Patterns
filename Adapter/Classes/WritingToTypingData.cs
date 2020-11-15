@@ -1,4 +1,6 @@
-﻿namespace Adapter.Classes
+﻿using Adapter.Interfaces;
+
+namespace Adapter.Classes
 {
     class WritingToTypingData : ITypingData
     {

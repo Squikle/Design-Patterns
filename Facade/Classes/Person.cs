@@ -1,4 +1,6 @@
-﻿namespace Facade
+﻿using Facade.Abstractions;
+
+namespace Facade.Classes
 {
     class Person
     {

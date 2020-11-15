@@ -1,4 +1,6 @@
 ﻿using System;
+using Patterns.Classes;
+using Patterns.Interfaces;
 
 namespace Patterns
 {

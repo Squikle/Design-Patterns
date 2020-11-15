@@ -1,6 +1,7 @@
 ﻿using System;
+using Facade.Interfaces;
 
-namespace Facade
+namespace Facade.Classes
 {
     class IntelI5 : ICpu
     {

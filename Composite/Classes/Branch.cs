@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+using Composite.Abstractions;
 
-namespace Composite
+namespace Composite.Classes
 {
     class Branch : Component
     {

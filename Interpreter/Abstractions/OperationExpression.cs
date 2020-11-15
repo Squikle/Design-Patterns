@@ -1,4 +1,7 @@
-﻿namespace Interpreter
+﻿using Interpreter.Classes;
+using Interpreter.Interfaces;
+
+namespace Interpreter.Abstractions
 {
     abstract class OperationExpression : IExpression
     {

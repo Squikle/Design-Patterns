@@ -1,4 +1,7 @@
-﻿namespace Facade
+﻿using Facade.Abstractions;
+using Facade.Interfaces;
+
+namespace Facade.Classes
 {
     class MyPc : PersonalComputer
     {

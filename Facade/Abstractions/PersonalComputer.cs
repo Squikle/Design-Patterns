@@ -1,4 +1,6 @@
-﻿namespace Facade
+﻿using Facade.Interfaces;
+
+namespace Facade.Abstractions
 {
     abstract class PersonalComputer
     {

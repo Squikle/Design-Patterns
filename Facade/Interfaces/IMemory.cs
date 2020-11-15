@@ -1,4 +1,4 @@
-﻿namespace Facade
+﻿namespace Facade.Interfaces
 {
     interface IMemory
     {

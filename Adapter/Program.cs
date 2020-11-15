@@ -1,4 +1,6 @@
 ﻿using System;
+using Adapter.Classes;
+using Adapter.Interfaces;
 
 namespace Adapter
 {

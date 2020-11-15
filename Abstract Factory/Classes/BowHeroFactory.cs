@@ -1,4 +1,6 @@
-﻿namespace Abstract_Factory.Classes
+﻿using Abstract_Factory.Interfaces;
+
+namespace Abstract_Factory.Classes
 {
     class BowHeroFactory : IHeroFactory
     {

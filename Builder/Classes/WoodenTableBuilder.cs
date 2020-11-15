@@ -1,6 +1,6 @@
 ﻿namespace Builder.Classes
 {
-    class WoodenTableBuilder : Builder
+    class WoodenTableBuilder : Abstractions.Builder
     {
         public override void CreateLegs()
         {

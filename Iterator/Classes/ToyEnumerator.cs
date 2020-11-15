@@ -1,4 +1,6 @@
-﻿namespace Iterator
+﻿using Iterator.Interfaces;
+
+namespace Iterator.Classes
 {
     class ToyEnumerator : IToyEnumerator
     {

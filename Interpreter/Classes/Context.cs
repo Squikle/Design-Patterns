@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Interpreter
+namespace Interpreter.Classes
 {
     class Context
     {

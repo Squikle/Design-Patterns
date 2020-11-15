@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Memento
+namespace Memento.Classes
 {
     class Player
     {

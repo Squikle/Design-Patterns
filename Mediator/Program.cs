@@ -1,4 +1,6 @@
 ﻿using System;
+using Mediator.Classes;
+using Mediator.Interfaces;
 
 namespace Mediator
 {

@@ -1,4 +1,6 @@
-﻿namespace Mediator
+﻿using Mediator.Interfaces;
+
+namespace Mediator.Classes
 {
     class TeamMediator : IMediator
     {

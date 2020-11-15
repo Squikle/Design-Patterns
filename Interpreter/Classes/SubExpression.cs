@@ -1,4 +1,7 @@
-﻿namespace Interpreter
+﻿using Interpreter.Abstractions;
+using Interpreter.Interfaces;
+
+namespace Interpreter.Classes
 {
     class SubExpression : OperationExpression
     {

@@ -1,4 +1,7 @@
-﻿namespace Bridge
+﻿using Bridge.Classes;
+using Bridge.Interfaces;
+
+namespace Bridge
 {
     class Program
     {

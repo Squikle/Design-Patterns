@@ -1,4 +1,6 @@
-﻿namespace Abstract_Factory.Interfaces
+﻿using Abstract_Factory.Interfaces;
+
+namespace Abstract_Factory.Classes
 {
     class Hero
     {

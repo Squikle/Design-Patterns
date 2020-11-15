@@ -1,4 +1,5 @@
 ﻿using System;
+using Composite.Classes;
 
 namespace Composite
 {

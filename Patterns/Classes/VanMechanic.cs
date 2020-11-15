@@ -1,4 +1,6 @@
-﻿namespace Patterns
+﻿using Patterns.Interfaces;
+
+namespace Patterns.Classes
 {
     class VanMechanic : IMechanic
     {
